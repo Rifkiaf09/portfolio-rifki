@@ -1,22 +1,4 @@
 /* ================================
-   🌙☀️ Dark Mode Toggle
-   ================================ */
-const toggleBtn = document.getElementById("themeToggle");
-const body = document.getElementById("body");
-let dark = false;
-
-toggleBtn.addEventListener("click", () => {
-  dark = !dark;
-  if (dark) {
-    body.classList.add("dark", "bg-gray-900", "text-gray-100");
-    toggleBtn.textContent = "☀️"; // ganti icon
-  } else {
-    body.classList.remove("dark", "bg-gray-900", "text-gray-100");
-    toggleBtn.textContent = "🌙";
-  }
-});
-
-/* ================================
    🎬 Scroll Animation (Fade In Up)
    ================================ */
 const sections = document.querySelectorAll("section");
