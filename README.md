@@ -6,7 +6,7 @@ This portfolio showcases my background, skills, certifications, projects, and ex
 ---
 
 ## 🧑 About Me
-- 🎓 Fresh Graduate in **Information Systems** (Universitas Terbuka, GPA 3.41)  
+- 🎓 Fresh Graduate in **Information Systems** 
 - 💻 Passionate about **Data Analytics, Software Development, and IT Systems**  
 - 📊 Experienced with **Python, PHP (Laravel/CI), Kotlin, SQL, MySQL, Power BI, ERP concepts**  
 - 🚀 Eager to contribute in **Application Development, IoT innovation, and ERP-related tasks**
@@ -14,17 +14,10 @@ This portfolio showcases my background, skills, certifications, projects, and ex
 ---
 
 ## 🛠️ Skills
-- **Programming**: Python, PHP (Laravel/CodeIgniter), Kotlin, SQL  
+- **Programming**: Python, Java, Dart (Flutter), SQL  
 - **Databases**: MySQL, SQL Server (familiar)  
 - **Tools**: Power BI, SAP, Excel (Advanced), Git  
 - **IT Practices**: SDLC, Application Testing, Cybersecurity, User Account Management  
-
----
-
-## 🎓 Education
-- **Bachelor of Information Systems**  
-  Universitas Terbuka – Indonesia  
-  Graduation: September 2024 | GPA: 3.41  
 
 ---
 
@@ -56,25 +49,13 @@ This portfolio showcases my background, skills, certifications, projects, and ex
 - Flutter-based task manager app with **Firebase Auth + SQLite**
 - Features: user authentication, deadline notifications, task filtering
 
----
-
-## 👔 Experience
-- **Store Manager** — BR Salman Digital Printing (2017–2022)  
-- **Crew Store** — PT Alfaria Sumber Trijaya (2023–2024)  
-- **Online Shop Admin** — Alfiyah Store (2022–2023)  
-
----
-
-## 🌍 Volunteering
-- **Micro Business Volunteer** — Akademi Relawan Indonesia (2021)  
 
 ---
 
 ## 🔗 Links
 - 📧 Email: [rifkiahmadf205@gmail.com](mailto:rifkiahmadf205@gmail.com)  
 - 💼 LinkedIn: [linkedin.com/in/rifki-ahmad-963a0217b](https://www.linkedin.com/in/rifki-ahmad-963a0217b/)  
-- 💻 GitHub: [github.com/Rifkiaf09](https://github.com/Rifkiaf09)  
-- 📱 WhatsApp: [+62 858-9271-1601](https://wa.me/6285892711601)  
+ 
 
 ---
 
