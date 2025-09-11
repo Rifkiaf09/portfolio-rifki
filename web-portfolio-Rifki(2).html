@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rifki Ahmad Fauzi | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans transition-colors duration-300" id="body">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 w-full bg-white/70 dark:bg-gray-900/80 backdrop-blur-md shadow z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold text-gray-900 dark:text-white">Rifki Ahmad Fauzi</h1>
+      <nav>
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li><a href="#about" class="hover:text-blue-600 dark:hover:text-blue-400">About</a></li>
+          <li><a href="#skills" class="hover:text-blue-600 dark:hover:text-blue-400">Skills</a></li>
+          <li><a href="#projects" class="hover:text-blue-600 dark:hover:text-blue-400">Projects</a></li>
+          <li><a href="#course" class="hover:text-blue-600 dark:hover:text-blue-400">Course</a></li>
+          <li><a href="#contact" class="hover:text-blue-600 dark:hover:text-blue-400">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Dark Mode Button -->
+      <button id="themeToggle" class="ml-4 p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-indigo-600 to-blue-500 text-white text-center px-4">
+<img src="assets/img/profile.jpeg" alt="Profile" 
+     class="w-32 h-32 object-cover rounded-full border-4 border-white shadow-lg mb-6" />
+    <h2 class="text-5xl font-extrabold mb-4">Hi, I'm Rifki 👋</h2>
+    <p class="text-lg max-w-2xl">Fresh Graduate in Information Systems | Focused on Data Analytics, Machine Learning, Software Development & IT Systems</p>
+    <div class="mt-8 flex space-x-4">
+      <a href="mailto:rifkiahmadf205@gmail.com" class="bg-white text-blue-600 px-5 py-2 rounded-lg shadow btn-hover">Contact Me</a>
+      <a href="https://github.com/Rifkiaf09" target="_blank" class="border border-white px-5 py-2 rounded-lg hover:bg-white hover:text-blue-600 btn-hover">GitHub</a>
+      <a href="docs/CV_RifkiAhmadF_compressed.pdf" target="_blank" class="bg-yellow-400 text-black px-5 py-2 rounded-lg shadow hover:bg-yellow-300 btn-hover">📄 Download CV</a>
+    </div>
+  </section>
+
+  <!-- About -->
+ <section id="about" class="max-w-5xl mx-auto py-20 px-6">
+  <h3 class="text-3xl font-bold mb-6 text-center text-gray-900 dark:text-white">About Me</h3>
+  <p class="text-gray-700 dark:text-white leading-relaxed text-lg text-center">
+    I am a fresh graduate with a Bachelor's degree in Information Systems, equipped with certifications and practical 
+    knowledge in data analytics, software development, and IT systems. Adept at working with databases, application maintenance, 
+    and digital solutions. Passionate about contributing to application development, IoT innovation, and ERP-related projects.
+  </p>
+</section>
+
+
+
+  <!-- Skills -->
+  <section id="skills" class="bg-gray-100 dark:bg-gray-800 py-20 px-6">
+    <h3 class="text-3xl font-bold mb-10 text-center text-gray-900 dark:text-white">Skills</h3>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow text-center font-medium card-hover text-gray-900 dark:text-white">Python</div>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow text-center font-medium card-hover text-gray-900 dark:text-white">Java</div>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow text-center font-medium card-hover text-gray-900 dark:text-white">Dart (Flutter)</div>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow text-center font-medium card-hover text-gray-900 dark:text-white">Excel</div>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow text-center font-medium card-hover text-gray-900 dark:text-white">SQL / MySQL</div>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow text-center font-medium card-hover text-gray-900 dark:text-white">Power BI</div>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow text-center font-medium card-hover text-gray-900 dark:text-white">Data Analyst</div>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow text-center font-medium card-hover text-gray-900 dark:text-white">IT Support</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+<section id="projects" class="max-w-6xl mx-auto py-20 px-6">
+  <h3 class="text-3xl font-bold mb-10 text-center text-gray-900 dark:text-white">Projects</h3>
+  <div class="grid md:grid-cols-2 gap-8">
+
+    <!-- Project 1 -->
+    <a href="https://koperasi-ml-jh5b4pfhzudcjsrbxkrb7p.streamlit.app/" target="_blank" 
+       class="bg-white dark:bg-gray-700 rounded-xl shadow overflow-hidden card-hover block">
+      <img src="assets/img/project1.png" alt="Project" class="w-full h-48 object-cover">
+      <div class="p-6">
+        <h4 class="font-semibold text-xl mb-2 text-gray-900 dark:text-white">Online Cooperative App for SMEs</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">Built data pipeline using Python & MySQL, predictive models for user segmentation.</p>
+      </div>
+    </a>
+
+    <!-- Project 2 -->
+    <a href="https://prediksi-jurusan-kuliah-vu6fabcfcuzd5nnqcam36g.streamlit.app/" target="_blank" 
+       class="bg-white dark:bg-gray-700 rounded-xl shadow overflow-hidden card-hover block">
+      <img src="assets/img/project2.png" alt="Project" class="w-full h-48 object-cover">
+      <div class="p-6">
+        <h4 class="font-semibold text-xl mb-2 text-gray-900 dark:text-white">College Major Prediction Web App</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">Developed with Python, scikit-learn & Streamlit for student major recommendations.</p>
+      </div>
+    </a>
+
+    <!-- Project 3 -->
+    <a href="https://telco-customer-churn-errqb7btfwefdtadpr79hl.streamlit.app/" target="_blank" 
+       class="bg-white dark:bg-gray-700 rounded-xl shadow overflow-hidden card-hover block">
+      <img src="assets/img/project3.png" alt="Project" class="w-full h-48 object-cover">
+      <div class="p-6">
+        <h4 class="font-semibold text-xl mb-2 text-gray-900 dark:text-white">Customer Churn Prediction</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">This project builds and deploys a machine learning model to predict customer churn using the Telco Customer Churn dataset with Streamlit.</p>
+      </div>
+    </a>
+
+    <!-- Project 4 -->
+    <a href="https://github.com/Rifkiaf09/habit_tracker" target="_blank" 
+       class="bg-white dark:bg-gray-700 rounded-xl shadow overflow-hidden card-hover block">
+      <img src="assets/img/project4.jpeg" alt="Project" class="w-full h-48 object-cover">
+      <div class="p-6">
+        <h4 class="font-semibold text-xl mb-2 text-gray-900 dark:text-white">Habit Tracker Mobile App</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">Flutter app with Firebase Auth, SQLite & local notifications.</p>
+      </div>
+    </a>
+
+  </div>
+
+  <!-- More Projects -->
+  <div class="text-center mt-12">
+    <a href="https://github.com/Rifkiaf09?tab=repositories" target="_blank" 
+       class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-500 transition btn-hover">
+      🔗 More Projects
+    </a>
+  </div>
+</section>
+
+
+  <!-- Course -->
+  <section id="course" class="bg-gray-100 dark:bg-gray-800 py-20 px-6">
+    <h3 class="text-3xl font-bold mb-10 text-center text-gray-900 dark:text-white">Bootcamp & Course</h3>
+    <div class="space-y-6 max-w-4xl mx-auto">
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow card-hover">
+        <h4 class="font-semibold text-gray-900 dark:text-white">Multi-Platform App Developer — BEKUP Create by Kemenparekraf & Dicoding (2025)</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">Completed an intensive Flutter bootcamp with project-based mobile app development and official certification.</p>
+      </div>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow card-hover">
+        <h4 class="font-semibold text-gray-900 dark:text-white">Machine Learning Path — Bangkit Academy by Google, Tokopedia & Traveloka (2023)</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">Intensive Machine Learning program by Google, GoTo, and Traveloka with project-based and capstone development.</p>
+      </div>
+      <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow card-hover">
+        <h4 class="font-semibold text-gray-900 dark:text-white">Cyber Security — Fresh Graduate Academy by KOMDIGI (2022)</h4>
+        <p class="text-gray-600 dark:text-gray-300 text-sm">Intensive training in cybersecurity fundamentals and cyber defense techniques with real-world simulations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+<section id="contact" class="py-20 px-6 text-center">
+  <h3 class="text-3xl font-bold mb-6 text-gray-900 dark:text-white">Contact Me</h3>
+  
+  <!-- Endpoint sudah diganti ke mzzaoklw -->
+  <form action="https://formspree.io/f/mzzaoklw" method="POST" class="max-w-xl mx-auto space-y-4">
+    <input type="text" name="name" placeholder="Your Name" required 
+      class="w-full p-3 rounded border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white" />
+    
+    <input type="email" name="email" placeholder="Your Email" required 
+      class="w-full p-3 rounded border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white" />
+    
+    <textarea name="message" placeholder="Your Message" required 
+      class="w-full p-3 rounded border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white"></textarea>
+    
+    <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-500 transition btn-hover">
+      Send
+    </button>
+  </form>
+
+  <!-- Info kontak alternatif -->
+  <p class="mt-6 text-sm text-gray-600 dark:text-gray-300">
+    Or reach me directly: 
+    <a href="mailto:rifkiahmadf205@gmail.com" class="text-blue-600 dark:text-blue-400">Email</a> | 
+    <a href="https://wa.me/6285892711601" target="_blank" class="text-blue-600 dark:text-blue-400">WhatsApp</a> | 
+    <a href="https://www.linkedin.com/in/rifki-ahmad-963a0217b/" target="_blank" class="text-blue-600 dark:text-blue-400">LinkedIn</a>
+  </p>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6 text-sm">
+    © 2025 Rifki Ahmad Fauzi | Portfolio
+  </footer>
+
+  <!-- Script -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
